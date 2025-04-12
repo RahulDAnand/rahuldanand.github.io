@@ -1,0 +1,49 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 2.2rem;
+  margin: 15px 0;
+}
+
+#current-price,
+#profit-loss-usd,
+#profit-loss-inr,
+#loss-from-150,
+#invested-price{
+  font-weight: bold;
+  font-size: 8.5rem;
+}
+
+.profit {
+  color: #4caf50;
+}
+
+.loss {
+  color: #f44336;
+}
+
+#disabled {
+  display: none;
+}
